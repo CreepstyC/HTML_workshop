@@ -18,11 +18,10 @@
         <br>
         <input type="text" id="contraseña">
         <br>
-        <br>
         <label for="confContraseña">Confirme su contrasena</label>
         <br>
         <input type="text" id="confContraseña">
-        <br>
+        <br><br>
         <label for="id">Identificación</label>
         <br>
         <select name="">
@@ -113,7 +112,16 @@
             <br>
             <label for="temasInteres">Temas de Interés</label>
             <br>
-            <textarea id="temasInteres"></textarea>
+            <select name="temasInteres" id="temasInteres">
+                <optgroup label="Sistemas">
+                    <option>Administración de Bases de Datos</option>
+                    <option>Análisis y programación</option>
+                    <option>Arquitectura</option>
+                    <option>Calidad</option>
+                    <option>ERP, CRM, Business Intelligence</option>
+                </optgroup>
+            </select>
+            
         </fieldset>
         <button type="submit">Guardar cambios</button>
         <button type="reset">Borrar los datos introducidos</button>
